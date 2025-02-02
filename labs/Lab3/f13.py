@@ -1,22 +1,23 @@
-import random
+from random import randint
 
-print("Hello! What is your name?")
-name = input()
+def guessanumber():
+    print("Hello! What is your name?")
+    name = input("name:")
+    print(f"Well, {name}, I am thinking of a number between 1 and 20.")
+    number = randint(1,20)
+    sum = 0
+    run = True
+    while run:
+        guess = int(input("Take a guess: "))
+        sum+=1
+        if guess == number:
+            run = False
+            print(f"Good job, {name}! You guessed my number in {sum} guesses!")
+            break
+        if guess>number:
+            print("Your guess is too high.")
+        else:
+            print("Your guess is too low")
 
-print(f"Well, {name}, I am thinking of a number between 1 and 20.")
 
-secret_number = random.randint(1, 20)
-attempts = 0
-
-while True:
-    print("Take a guess.")
-    guess = int(input())
-    attempts += 1
-
-    if guess < secret_number:
-        print("Your guess is too low.")
-    elif guess > secret_number:
-        print("Your guess is too high.")
-    else:
-        print(f"Good job, {name}! You guessed my number in {attempts} guesses!")
-        break
+guessanumber()
