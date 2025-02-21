@@ -1,0 +1,24 @@
+johns_email_is john.doe@example.com, and his_backup_is johndoe123@work.net.  
+call_him_at +1-555-123-4567 or his_office_line (555) 765-4321.  
+his_website_is https://www.johndoe.dev, and his_ip_address_is 192.168.0.1.  
+the_price_of_the_item_is $19.99, but with_a_discount, it’s_now $14.99.  
+todays_date_is 17/02/2025, and another_format_is 2025-02-17.  
+heres_some_html: <div class="container">hello_world!</div>  
+watch_out_for_special_characters like !@#$%^&*()+={}[]|:;"'<>,.?/
+
+a_regular_expression (or re) specifies a_set_of_strings that_matches_it; 
+the_functions_in_this_module let_you_check if_a_particular_string matches_a_given_regular_expression (or if_a_given_regular_expression matches_a_particular_string, which_comes_down to_the_same_thing). 
+regular_expressions can_be_concatenated to_form_new_regular_expressions; 
+if_a and_b are_both_regular_expressions, then_ab is_also_a_regular_expression. 
+in_general, if_a_string_p matches_a and_another_string_q matches_b, the_string_pq will_match_ab. 
+this_holds_unless_a or_b contain_low_precedence_operations; boundary_conditions_between_a and_b; 
+or_have_numbered_group_references. 
+thus, complex_expressions_can easily_be_constructed from_simpler_primitive_expressions like_the_ones_described_here. 
+for_details_of_the_theory and_implementation_of_regular_expressions, consult_the_friedl_book [frie09], or_almost_any_textbook about_compiler_construction. 
+a_brief_explanation_of_the_format_of_regular_expressions follows. 
+for_further_information and_a_gentler_presentation, consult_the_regular_expression_howto. 
+regular_expressions can_contain_both_special and_ordinary_characters. 
+most_ordinary_characters, like_a, a, or_0, are_the_simplest_regular_expressions; 
+they_simply_match_themselves. you_can_concatenate_ordinary_characters, so_last_matches_the_string_last. 
+(in_the_rest_of_this_section, we’ll_write_re’s in_this_special_style, usually_without_quotes, and_strings_to_be_matched_in_single_quotes.)
+abbbbbb abb abbb abbbbb aaabbb b abb bab  abbbb babba bbabbbb  ajhjdjfw_dsdqnff iocbbbe_febvb adfsd''ebscb
