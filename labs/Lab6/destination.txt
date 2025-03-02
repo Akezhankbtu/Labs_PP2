@@ -1,0 +1,3 @@
+Hello, this is the source file.
+It contains multiple lines.
+This text will be copied to another file.
