@@ -1,3 +1,6 @@
+def pr(list):
+    for i in list:
+        print(i["imdb"])
 movies = [
 {
 "name": "Usual Suspects", 
@@ -75,14 +78,14 @@ movies = [
 "category": "Romance"
 }
 ]
-name=str(input("category:"))
-def imdvpoint(movies):
-    avg=0
-    cnt=0
-    for movie in movies:
-        if movie["category"]==name:
-            avg+=movie["imdb"]
-            cnt+=1
-    return avg/cnt
-print(imdvpoint(movies))
-        
+# name=str(input("category:"))
+# def imdvpoint(movies):
+#     avg=0
+#     cnt=0
+#     for movie in movies:
+#         if movie["category"]==name:
+#             avg+=movie["imdb"]
+#             cnt+=1
+#     return avg/cnt
+# print(imdvpoint(movies))
+pr(movies)
